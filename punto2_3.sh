@@ -1,0 +1,2 @@
+#/bin/sh
+nstat -a
