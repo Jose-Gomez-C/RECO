@@ -1,2 +1,2 @@
 #/bin/sh
-nstat -a
+netstat -e

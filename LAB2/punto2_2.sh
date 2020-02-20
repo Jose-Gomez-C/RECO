@@ -1,2 +1,2 @@
 #/bin/sh
-ps aux --sort -pcpu
+ps axo user,uid,size,pcpu,comm --sort -pcpu
