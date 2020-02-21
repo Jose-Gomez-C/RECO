@@ -1,0 +1,91 @@
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name     Timer
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ]         DGRAM                    25112    1135/systemd         /run/user/1000/systemd/notify
+unix  3      [ ]         DGRAM                    15627    1/init               /run/systemd/notify
+unix  2      [ ]         DGRAM                    15635    1/init               /run/systemd/journal/syslog
+unix  9      [ ]         DGRAM                    15639    1/init               /run/systemd/journal/socket
+unix  8      [ ]         DGRAM                    15748    1/init               /run/systemd/journal/dev-log
+unix  3      [ ]         STREAM     CONNECTED     18025    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    15629    1/init               
+unix  3      [ ]         STREAM     CONNECTED     22882    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19394    1/init               
+unix  3      [ ]         STREAM     CONNECTED     18096    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     18936    664/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     19653    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21223    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19130    685/systemd-network  
+unix  3      [ ]         STREAM     CONNECTED     22881    762/python3          
+unix  3      [ ]         STREAM     CONNECTED     21222    879/polkitd          
+unix  3      [ ]         STREAM     CONNECTED     19545    624/multipathd       
+unix  3      [ ]         STREAM     CONNECTED     17508    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20871    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    15628    1/init               
+unix  2      [ ]         DGRAM                    19232    687/systemd-resolve  
+unix  3      [ ]         STREAM     CONNECTED     19225    687/systemd-resolve  
+unix  2      [ ]         DGRAM                    22681    704/dbus-daemon      
+unix  2      [ ]         DGRAM                    17282    451/systemd-journal  
+unix  3      [ ]         STREAM     CONNECTED     20870    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     15183    463/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     18320    705/python3          
+unix  3      [ ]         STREAM     CONNECTED     20866    704/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     21708    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19398    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    19141    685/systemd-network  
+unix  3      [ ]         DGRAM                    19047    664/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     18242    701/irqbalance       
+unix  3      [ ]         DGRAM                    19046    664/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     18247    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20869    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    19048    664/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     17334    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    17429    1/init               
+unix  3      [ ]         DGRAM                    19140    685/systemd-network  
+unix  3      [ ]         DGRAM                    19049    664/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     19301    664/systemd-timesyn  
+unix  3      [ ]         STREAM     CONNECTED     20867    704/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     22564    716/systemd-logind   
+unix  3      [ ]         DGRAM                    19139    685/systemd-network  
+unix  3      [ ]         STREAM     CONNECTED     20110    687/systemd-resolve  
+unix  2      [ ]         DGRAM                    19044    664/systemd-timesyn  
+unix  3      [ ]         DGRAM                    19138    685/systemd-network  
+unix  2      [ ]         DGRAM                    19132    685/systemd-network  
+unix  3      [ ]         DGRAM                    15195    463/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     20109    685/systemd-network  
+unix  2      [ ]         DGRAM                    24232    763/login            
+unix  3      [ ]         STREAM     CONNECTED     18174    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    22786    706/rsyslogd         
+unix  3      [ ]         STREAM     CONNECTED     22366    705/python3          
+unix  3      [ ]         STREAM     CONNECTED     25089    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21869    1/init               /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    20667    702/cron             
+unix  3      [ ]         DGRAM                    15196    463/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     24406    1135/systemd         
+unix  3      [ ]         STREAM     CONNECTED     22385    705/python3          
+unix  3      [ ]         STREAM     CONNECTED     20874    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     20752    728/snapd            
+unix  3      [ ]         STREAM     CONNECTED     22912    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     22672    716/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     19393    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20385    704/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     20247    700/accounts-daemon  
+unix  2      [ ]         DGRAM                    15193    463/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     22386    705/python3          
+unix  3      [ ]         STREAM     CONNECTED     20876    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     20868    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     20316    702/cron             
+unix  3      [ ]         STREAM     CONNECTED     22661    700/accounts-daemon  
+unix  3      [ ]         STREAM     CONNECTED     18248    1/init               /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     23589    762/python3          
+unix  3      [ ]         DGRAM                    25114    1135/systemd         
+unix  3      [ ]         STREAM     CONNECTED     21205    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    24412    1136/(sd-pam)        
+unix  3      [ ]         DGRAM                    25113    1135/systemd         
+unix  3      [ ]         STREAM     CONNECTED     25116    1135/systemd         
+unix  3      [ ]         STREAM     CONNECTED     23593    762/python3          
+unix  3      [ ]         STREAM     CONNECTED     23592    762/python3          
+unix  3      [ ]         STREAM     CONNECTED     24429    704/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    20864    716/systemd-logind   
+unix  2      [ ]         DGRAM                    26626    1164/su              
+unix  2      [ ]         DGRAM                    24415    1135/systemd         
