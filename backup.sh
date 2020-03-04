@@ -1,10 +1,9 @@
 #!/bin/bash
-folder=$1
+folder=/home/backup/
 echo `date`
 now=$(date +%H%m%S)
-mkdir -p $1
-cd $1
-ps aux > /root/RECO/archivo.txt
+mkdir -p $folder
+cd $folder
 echo $now
-tar -cvpzf $now.tar.gz /root/RECO/archivo.txt
+tar -cvpzf $now.tar.gz /etc/passwd
 
