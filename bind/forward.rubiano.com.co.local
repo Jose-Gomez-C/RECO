@@ -1,0 +1,22 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	primary.rubiano.com.co.local. root.primary.rubiano.com.co.local. (
+			      6		; Serial
+			 604820		; Refresh
+			  86600		; Retry
+			2419600		; Expire
+			 604600 )	; Negative Cache TTL
+;
+@	IN	NS	primary.rubiano.com.co.local.
+
+primary	IN	A	192.168.1.111
+
+rubiano.com.co.local.	IN MX 10 mail.rubiano.com.co.local.
+
+www	IN	A	10.2.77.165
+mail	IN	A	10.2.77.166
+notas	IN	A	10.2.77.167
+
+sa	IN	CNAME	www.rubiano.com.co.
