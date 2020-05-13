@@ -1,0 +1,24 @@
+;
+; /etc/DNS/joseGomez.com.co.hosts file
+;
+;
+; INCLUDE UPDATE SOA HEADER
+$INCLUDE named2.soa ;
+;
+; Name Server(s)
+joseGomez.com.co IN NS ns2
+;
+localhost.joseGomez.com.co IN A 10.2.77.161
+;
+; Addresses for the canonical names
+;
+www.joseGomez.com.co. IN A 10.2.77.162
+ipv4_1.joseGomez.com.co. IN A 10.2.77.163
+ipv4_2.joseGomez.com.co. IN A 10.2.77.164
+ipv6.joseGomez.com.co. IN AAAA ::ffff:a02:4da5
+; no se presenta la forma como se configura IPv6. Debe revisarse qué
+cambia.;
+; Aliases
+;
+prueba1.mi_dominio. IN CNAME ipv4_1.joseGomez.com.co.
+prueba2.mi_dominio. IN CNAME ipv4_2.joseGomez.com.co.
