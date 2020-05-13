@@ -1,0 +1,17 @@
+;
+; /etc/DNS/named.soa file
+;
+; name server SOA file
+;
+@ IN SOA esteServidor.mi_dominio. root.mi_dominio. (
+2020050101 ; serial
+ // El número usualmente es un consecutivo. El que el
+ // administrador desee usar, ej 001, 002, etc. En este
+ // ejemplo se usó aaaammddxx (aaaa: año, mm: mes,
+ // dd: día y xx: número consecutivo del día en el que
+ // se están haciendo las modificaciones).
+43200 ; refresh
+3600 ; retry
+432000 ; expire
+86400 ; minimum time-to-live
+)
