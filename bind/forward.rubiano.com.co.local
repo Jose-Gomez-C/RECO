@@ -10,13 +10,25 @@ $TTL	604800
 			 604600 )	; Negative Cache TTL
 ;
 @	IN	NS	primary.rubiano.com.co.local.
+	IN	NS	secondary.rubiano.com.co.local.
 
-primary	IN	A	192.168.1.111
+
+primary		IN	A	192.168.1.130
+secondary	IN	A	192.168.1.131
+srp		IN	A	192.168.1.151
+
 
 rubiano.com.co.local.	IN MX 10 mail.rubiano.com.co.local.
 
-www	IN	A	10.2.77.165
-mail	IN	A	10.2.77.166
-notas	IN	A	10.2.77.167
+www	IN	A	192.168.1.165
+mail	IN	A	192.168.1.166
+notas	IN	A	192.168.1.167
+
+ipv6a	IN	AAAA	::ffff:a02:4d01
+ipv6b	IN	AAAA	::ffff:a02:4d02
 
 sa	IN	CNAME	www.rubiano.com.co.
+m	IN	CNAME	mail.rubiano.com.co.
+v6a	IN	CNAME	ipv6a.rubiano.com.co.
+v6b	IN	CNAME	ipv6b.rubiano.com.co.
+

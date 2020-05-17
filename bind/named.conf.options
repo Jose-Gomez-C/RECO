@@ -1,8 +1,16 @@
+acl "allowed" {
+	192.168.1.0/24;
+};
+
 options {
 	directory "/var/cache/bind";
+
+	recursion yes;
+	allow-recursion { localhost; allowed; };
 	auth-nxdomain no;
 	listen-on port 53 { localhost; 192.168.1.0/24; };
-	allow-query { localhost; 192.168.1.0/24; };
+	allow-query { localhost; 192.168.1.0/24; allowed; };
+	allow-transfer { 192.168.1.131; };
 	// If there is a firewall between you and nameservers you want
 	// to talk to, you may need to fix the firewall to allow multiple
 	// ports to talk.  See http://www.kb.cert.org/vuls/id/800113
@@ -13,7 +21,6 @@ options {
 	// the all-0's placeholder.
 
 	forwarders{ 8.8.8.8; };
-	recursion yes;
 
 	//========================================================================
 	// If BIND logs error messages about the root key being expired,
