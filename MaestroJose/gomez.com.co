@@ -1,0 +1,36 @@
+;
+; /etc/DNS/gomez.com.co.hosts file
+;
+;
+;	INCLUDE	UPDATE SOA HEADER
+$INCLUDE /etc/DNS/named.soa 
+;
+; Name Server(s)
+@	IN	NS	ns1.gomez.com.co.hosts.
+	IN	NS	ns2.gomez.com.co.hosts.
+;
+; 
+; Addresses for the canonical names
+ns1	IN	A	192.168.0.190
+ns2	IN	A	192.168.0.65
+cliente	IN	A	192.168.0.52
+est	IN	A	10.2.77.161
+ipv4	IN	A	10.2.77.162
+ipv4-1	IN	A	10.2.77.163
+
+; Addresses for the canocical names ipv6
+
+ipv6	IN	AAAA	2001:DB8:85A3::8A2E:370:7334
+ipv6-1	IN	AAAA	2001:DB8:85A3::8A2E:370:7335
+
+; Aliases
+;
+test	IN	CNAME	ipv4.gomez.com.co.
+test1	IN	CNAME	ipv4-1.gomez.com.co
+test2	IN	CNAME	ipv6.gomez.com.co.
+
+
+
+
+
+
